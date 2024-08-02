@@ -36,3 +36,119 @@
     transform: rotate(360deg);
   }
 }
+
+.segment {
+  width: 100%;
+  height: 100%;
+  clip-path: polygon(50% 50%, 100% 0, 100% 100%);
+}
+
+.triangle{
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+.main-explain{
+  animation: movepar linear 2s;
+}
+
+@keyframes movepar {
+  from{
+    opacity:0;
+
+  }
+
+  to{
+    opacity: 1;
+  }
+}
+
+.main-image{
+  animation: moveimg linear 2s;
+}
+
+@keyframes moveimg {
+  from{
+    opacity:0;
+  }
+
+  to{
+    opacity: 0.3;
+  }
+}
+
+.skill-trans{
+  animation: skillMove linear;
+}
+
+@keyframes skillMove {
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+
+.delay-1{
+  animation-duration: 2s;
+}
+
+.delay-2{
+  animation-duration: 4s;
+}
+
+.delay-3{
+  animation-duration: 6s;
+}
+
+.delay-4{
+  animation-duration: 8s;
+}
+
+.box-shadow-all {
+  box-shadow: 
+    0 4px 6px -1px rgba(255, 255, 0, 0.5),  /* Bottom shadow with 50% opacity */
+    0 -4px 6px -1px rgba(255, 255, 0, 0.5), /* Top shadow with 50% opacity */
+    4px 0 6px -1px rgba(255, 255, 0, 0.5),  /* Right shadow with 50% opacity */
+    -4px 0 6px -1px rgba(255, 255, 0, 0.5); /* Left shadow with 50% opacity */
+}
+
+.box-shadow-green {
+  box-shadow: 
+    0 4px 6px -1px rgba(0, 255, 0, 0.5),  /* Bottom shadow with 50% opacity */
+    0 -4px 6px -1px rgba(0, 255, 0, 0.5), /* Top shadow with 50% opacity */
+    4px 0 6px -1px rgba(0, 255, 0, 0.5),  /* Right shadow with 50% opacity */
+    -4px 0 6px -1px rgba(0, 255, 0, 0.5); /* Left shadow with 50% opacity */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.hide-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.link-underline {
+  position: relative;
+}
+
+.link-underline::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  display: block;
+  margin-top: 5px;
+  left: 0;
+  background: green;
+  transition: width 0.4s ease, right 0.4s ease;
+}
+
+.link-underline:hover::after {
+  width: 100%;
+  left: 0;
+}
