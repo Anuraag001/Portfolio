@@ -60,8 +60,8 @@ const Main = () => {
                 {show ? <div className='text-green-200 text-sm'>|</div> : <></>}
             </div>
             <div className='flex flex-row sm:flex-row gap-x-20 gap-y-2 sm:gap-y-0 sm:gap-x-5 md:gap-x-10 my-4'>
-                <Link className='flex w-fit sm:w-28 justify-center bg-yellow-300 rounded box-shadow-all hover:scale-105 duration-300 text-xs sm:text-base lg:text-lg' to='/contact'>Contact Me</Link>
-                <a className='flex w-fit sm:w-40 justify-center box-shadow-green bg-green-600 rounded hover:scale-105 duration-300 transition text-xs sm:text-base lg:text-lg' href='https://drive.google.com/file/d/1ulUQ8JsaYckdkNX8Swe_EPxdcpIOb5y3/view?usp=drive_link'>Download Resume</a>
+                <Link className='flex w-fit sm:w-28 justify-center bg-yellow-300 rounded box-shadow-all hover:scale-105 duration-300 text-xs sm:text-base lg:text-lg' to='/Portfolio/contact'>Contact Me</Link>
+                <a className='flex w-fit sm:w-40 justify-center box-shadow-green bg-green-600 rounded hover:scale-105 duration-300 transition text-xs sm:text-base lg:text-lg' href='https://drive.google.com/file/d/1dIEde_drgDfjM9r-xq0B31HgflEuUfGt/view?usp=drive_link'>Download Resume</a>
             </div>
 
         </div>

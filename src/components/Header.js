@@ -7,13 +7,13 @@ const Header=()=>{
         <div className='hidden md:block'>Portfolio</div>
     </div>
     <div className='flex flex-row gap-x-8 py-1 md:p-0'>
-        <Link to="/" className='link-underline text-sm md:text-base'>Main</Link>
-        <Link to="/skills" className='link-underline text-sm md:text-base'>Skills</Link>
-        <Link to="/projects" className='link-underline text-sm md:text-base'>Projects</Link>
+        <Link to="/Portfolio" className='link-underline text-sm md:text-base'>Main</Link>
+        <Link to="/Portfolio/skills" className='link-underline text-sm md:text-base'>Skills</Link>
+        <Link to="/Portfolio/projects" className='link-underline text-sm md:text-base'>Projects</Link>
         <div>
         </div>
     </div>
-    <Link to='/contact' className='link-underline text-sm md:text-base py-1 md:p-0'>Lets talk</Link>
+    <Link to='/Portfolio/contact' className='link-underline text-sm md:text-base py-1 md:p-0'>Lets talk</Link>
     </>);
 }
 

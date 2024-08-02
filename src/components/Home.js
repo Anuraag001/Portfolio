@@ -15,10 +15,10 @@ const Homepage = () => {
       <div className="flex flex-row grow overflow-hidden">
         <SideBar />
           <Routes>
-            <Route path="/" element={<Main />} />
-            <Route path="/skills" element={<Skills />} />
-            <Route path="/projects" element={<Projects />} />
-            <Route path='/contact' element={<Contact />} />
+            <Route path="/Portfolio" element={<Main />} />
+            <Route path="/Portfolio/skills" element={<Skills />} />
+            <Route path="/Portfolio/projects" element={<Projects />} />
+            <Route path='/Portfolio/contact' element={<Contact />} />
           </Routes>
       </div>
     </div>
